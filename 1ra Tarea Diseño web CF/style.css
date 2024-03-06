@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+header{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: rgb(201, 238, 99);
+    width: 90%;
+}
+header ul{
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px
+}
+img{
+    width: 50%;
+}
+h1{
+    font-size: 100px;
+    color: rgb(56, 180, 202);
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 25px;
+    color: #0e0d0d
+}
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.presentacion h1{
+    font: size 35px;
+    color: rgb(33, 156, 156);
+}
+.presentacion p{
+    width: 70%;
+    font-size: 60%;
+    padding: 30px;
+    font-family: "Kode Mono", monospace;
+}
+.CONTENEDOR{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(221, 142, 142);
+}
+.Caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Caja img{
+    border-radius: 150%
+}
+.Caja p{
+    font-size: 15px; 
+}
